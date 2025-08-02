@@ -1,0 +1,88 @@
+/* App.css */
+body {
+  margin: 0;
+  background: #f0f2f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.text-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.text-info input[type="text"] {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  width: 180px;
+}
+
+.voice-controls,
+.playback-controls {
+  margin-top: 30px;
+}
+
+.voice-controls label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+select,
+input[type='range'] {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.playback-controls {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
